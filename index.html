@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>KANG AI OFFICIAL</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="KANG AI OFFICIAL — AI Activist, AI Content Creator, and Visual Art Collective focused on cinematic storytelling and digital world exploration.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="KANG AI OFFICIAL — AI-driven cinematic visual storytelling and digital experimentation." />
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
@@ -16,60 +17,85 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: url("background.png") no-repeat center center fixed;
+  background: 
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.85)),
+    url("background.png") no-repeat center center fixed;
   background-size: cover;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
 }
-}
 
+/* CONTAINER */
 .container {
-  max-width: 900px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 90px 24px;
+  padding: 80px 22px;
   text-align: center;
 }
 
-/* HEADER */
+/* TITLE */
 h1 {
-  font-size: 56px;
-  letter-spacing: 4px;
-  margin-bottom: 6px;
+  font-size: 54px;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
+/* SUBTITLE */
 .project {
-  font-size: 14px;
-  letter-spacing: 3px;
-  opacity: 0.6;
-  margin-bottom: 24px;
+  font-size: 13px;
+  letter-spacing: 0.35em;
+  opacity: 0.65;
+  margin-bottom: 26px;
 }
 
+/* ROLE */
 .role {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
+  letter-spacing: 0.04em;
   opacity: 0.8;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
-/* SECTIONS */
+/* SECTION */
 .section {
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .section h2 {
-  font-size: 14px;
-  letter-spacing: 3px;
+  font-size: 13px;
+  letter-spacing: 0.35em;
   font-weight: 500;
   opacity: 0.6;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 .section p {
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.8;
-  opacity: 0.75;
+  max-width: 680px;
+  margin: 0 auto 22px auto;
+  font-size: 15px;
+  line-height: 1.9;
+  opacity: 0.82;
+}
+
+/* LINKS */
+.links a {
+  display: inline-block;
+  margin: 6px 14px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  opacity: 1;
+  border-color: #ffffff;
 }
 
 /* LIST */
@@ -80,34 +106,39 @@ h1 {
 }
 
 .list li {
-  font-size: 15px;
-  opacity: 0.75;
-  margin: 6px 0;
-}
-
-/* LINKS */
-.links a {
-  display: inline-block;
-  margin: 6px 14px;
-  color: #ffffff;
-  text-decoration: none;
   font-size: 14px;
-  opacity: 0.7;
-  border-bottom: 1px solid rgba(255,255,255,0.3);
-  padding-bottom: 4px;
-  transition: all 0.3s ease;
-}
-
-.links a:hover {
-  opacity: 1;
-  border-color: #ffffff;
+  letter-spacing: 0.05em;
+  opacity: 0.75;
+  margin: 8px 0;
 }
 
 /* FOOTER */
 footer {
-  margin-top: 120px;
-  font-size: 12px;
+  margin-top: 140px;
+  font-size: 11px;
+  letter-spacing: 0.25em;
   opacity: 0.35;
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 34px;
+    letter-spacing: 0.14em;
+  }
+
+  .role {
+    font-size: 14px;
+  }
+
+  .section p {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+
+  .links a {
+    font-size: 12px;
+  }
 }
 </style>
 </head>
@@ -120,42 +151,47 @@ footer {
   <h1>KANG AI OFFICIAL</h1>
   <div class="project">PROJECT</div>
   <div class="role">
-    AI Activist • AI Content Creator • AI Affiliate Content • Online Marketing
+    AI Visual Creator • Cinematic Storytelling • Digital Experimentation
   </div>
 
   <!-- ABOUT -->
   <div class="section">
     <p>
-      KANG AI OFFICIAL is a visual art collective driven by artificial intelligence,
-      focused on cinematic storytelling and digital world exploration. By combining
-      cutting-edge AI technology, artistic precision, and an experimental approach,
-      each project is crafted to deliver immersive visual experiences that feel alive.
+      KANG AI OFFICIAL is an AI-driven visual art initiative focused on cinematic
+      storytelling and the exploration of digital worlds.
     </p>
-    <p style="margin-top:20px;">
-      KANG AI OFFICIAL continues to push the boundaries of AI-driven art through
-      creative innovation and cross-platform collaboration on a global scale.
+
+    <p>
+      By merging advanced artificial intelligence with artistic precision and an
+      experimental mindset, each project is designed to evoke atmosphere, emotion,
+      and narrative depth through visual form.
+    </p>
+
+    <p>
+      Through continuous exploration and global collaboration, KANG AI OFFICIAL
+      expands the boundaries of AI-powered creativity across platforms and mediums.
     </p>
   </div>
 
-  <!-- SOCIAL MEDIA -->
+  <!-- SOCIAL -->
   <div class="section">
-    <h2>SOCIAL MEDIA ACCOUNTS</h2>
+    <h2>SOCIAL</h2>
     <div class="links">
       <a href="#">Instagram</a>
       <a href="#">X</a>
       <a href="#">YouTube</a>
+      <a href="#">TikTok</a>
       <a href="#">Threads</a>
       <a href="#">LinkedIn</a>
       <a href="#">Linktree</a>
-      <a href="#">TikTok</a>
       <a href="#">Facebook</a>
       <a href="#">Reddit</a>
     </div>
   </div>
 
-  <!-- PARTNERSHIP -->
+  <!-- PARTNERS -->
   <div class="section">
-    <h2>CPP PROGRAM PARTNERSHIP</h2>
+    <h2>CREATIVE & CPP PARTNERSHIPS</h2>
     <ul class="list">
       <li>Higgsfield</li>
       <li>Wavespeed</li>
@@ -170,7 +206,7 @@ footer {
 
   <!-- CONTACT -->
   <div class="section">
-    <h2>CONTACT PERSON</h2>
+    <h2>CONTACT</h2>
     <div class="links">
       <a href="#">WhatsApp</a>
       <a href="#">Telegram</a>
@@ -179,7 +215,7 @@ footer {
 
   <!-- FOOTER -->
   <footer>
-    © 2025 KANG AI OFFICIAL
+    KANG AI OFFICIAL © 2025 — ALL VISUAL NARRATIVES RESERVED
   </footer>
 
 </div>
