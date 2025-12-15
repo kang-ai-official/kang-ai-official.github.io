@@ -7,106 +7,108 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="KANG AI OFFICIAL — AI-driven cinematic visual storytelling and digital experimentation.">
 
-<!-- FONTS -->
+<!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
 
 <style>
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
   min-height: 100vh;
   background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.85)),
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.88)),
     url("background.png") no-repeat center center fixed;
   background-size: cover;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
 }
 
 /* CONTAINER */
 .container {
-  max-width: 860px;
+  max-width: 880px;
   margin: 0 auto;
-  padding: 70px 22px;
+  padding: 80px 22px;
   text-align: center;
 }
 
-/* MAIN TITLE */
+/* HERO TITLE */
 h1 {
   font-family: 'Cinzel', serif;
   font-size: 52px;
   font-weight: 700;
   letter-spacing: 0.12em;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   color: #39ff14;
   text-shadow:
     0 0 10px rgba(57,255,20,0.35),
-    0 0 26px rgba(57,255,20,0.25);
+    0 0 28px rgba(57,255,20,0.25);
 }
 
-/* SUB TITLE */
+/* PROJECT */
 .project {
   font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.22em;
-  color: #ff3b3b;
-  opacity: 0.9;
-  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  color: #ff2e2e;
+  margin-bottom: 22px;
 }
 
 /* ROLE */
 .role {
-  font-size: 14px;
+  font-size: 14.5px;
   font-weight: 600;
-  letter-spacing: 0.02em;
-  line-height: 1.55;
-  opacity: 0.9;
-  margin-bottom: 60px;
+  letter-spacing: 0.03em;
+  opacity: 0.95;
+  margin-bottom: 70px;
 }
 
 /* SECTION */
 .section {
-  margin-top: 54px;
+  margin-top: 70px;
 }
 
-.section h2 {
-  font-size: 12px;
+/* RED SECTION TITLE */
+.red-strong {
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.28em;
-  opacity: 0.65;
-  margin-bottom: 22px;
+  letter-spacing: 0.3em;
+  color: #ff2e2e;
+  margin-bottom: 28px;
 }
 
+/* PARAGRAPH */
 .section p {
-  max-width: 680px;
+  max-width: 700px;
   margin: 0 auto 18px auto;
   font-size: 15px;
   font-weight: 600;
-  line-height: 1.75;
-  opacity: 0.88;
+  line-height: 1.8;
+  color: #ffffff;
+  opacity: 0.9;
 }
 
 /* LINKS */
+.links {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
 .links a {
-  display: inline-block;
-  margin: 8px 14px;
-  font-size: 13px;
+  display: block;
+  padding: 14px 0;
+  margin: 10px 0;
+  font-size: 14px;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   color: #ffffff;
   text-decoration: none;
-  opacity: 0.8;
-  border-bottom: 1px solid rgba(255,255,255,0.35);
-  padding-bottom: 4px;
+  border: 1px solid rgba(255,255,255,0.25);
   transition: all 0.25s ease;
 }
 
 .links a:hover {
-  opacity: 1;
+  background: rgba(255,255,255,0.06);
   border-color: #ffffff;
 }
 
@@ -118,20 +120,20 @@ h1 {
 }
 
 .list li {
-  font-size: 14px;
+  font-size: 14.5px;
   font-weight: 600;
-  letter-spacing: 0.04em;
-  opacity: 0.82;
-  margin: 7px 0;
+  letter-spacing: 0.05em;
+  margin: 10px 0;
+  opacity: 0.9;
 }
 
 /* FOOTER */
 footer {
-  margin-top: 120px;
+  margin-top: 140px;
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.22em;
-  opacity: 0.4;
+  letter-spacing: 0.25em;
+  opacity: 0.45;
 }
 
 /* MOBILE */
@@ -140,18 +142,11 @@ footer {
     font-size: 32px;
     letter-spacing: 0.1em;
   }
-
   .role {
     font-size: 13.5px;
   }
-
   .section p {
     font-size: 14px;
-    line-height: 1.75;
-  }
-
-  .links a {
-    font-size: 12px;
   }
 }
 </style>
@@ -161,7 +156,7 @@ footer {
 
 <div class="container">
 
-  <!-- HEADER -->
+  <!-- HERO -->
   <h1>KANG AI OFFICIAL</h1>
   <div class="project">PROJECT</div>
   <div class="role">
@@ -175,9 +170,9 @@ footer {
       storytelling and the exploration of digital worlds.
     </p>
     <p>
-      By merging advanced artificial intelligence with artistic precision and an
-      experimental mindset, each project is crafted to evoke atmosphere, emotion,
-      and narrative depth through visual form.
+      By merging advanced artificial intelligence with artistic precision and
+      an experimental mindset, each project is crafted to deliver atmosphere,
+      emotion, and narrative depth.
     </p>
     <p>
       Through continuous exploration and global collaboration, KANG AI OFFICIAL
@@ -185,20 +180,20 @@ footer {
     </p>
   </div>
 
-  <!-- SOCIAL MEDIA -->
+  <!-- SOCIAL -->
   <div class="section">
-  <h2 class="red-strong">SOCIAL MEDIA ACCOUNTS</h2>
-  <div class="links">
-    <a href="https://www.instagram.com/kang_aikroto?igsh=dTJnNXg5MnMydDh2" target="_blank">Instagram</a>
-    <a href="https://x.com/Kangaikroto?t=_EtT-IAGLPoPtaElsC1V4g&s=09" target="_blank">X</a>
-    <a href="https://youtube.com/@kangaikroto?si=FZXjTnabPKcInD-1" target="_blank">YouTube</a>
-    <a href="https://www.tiktok.com/@ayigitutea?_r=1&_t=ZS-92EqFlGtQV2" target="_blank">TikTok</a>
-    <a href="https://www.threads.com/@kang_aikroto" target="_blank">Threads</a>
-    <a href="https://www.linkedin.com/public-profile/settings" target="_blank">LinkedIn</a>
-    <a href="https://www.facebook.com/share/16Xma6akUU/" target="_blank">Facebook</a>
-    <a href="https://www.reddit.com/u/kang_ai/s/qDsyc3uIgs" target="_blank">Reddit</a>
+    <h2 class="red-strong">SOCIAL MEDIA ACCOUNTS</h2>
+    <div class="links">
+      <a href="https://www.instagram.com/kang_aikroto" target="_blank">Instagram</a>
+      <a href="https://x.com/Kangaikroto" target="_blank">X / Twitter</a>
+      <a href="https://youtube.com/@kangaikroto" target="_blank">YouTube</a>
+      <a href="https://www.tiktok.com/@ayigitutea" target="_blank">TikTok</a>
+      <a href="https://www.threads.com/@kang_aikroto" target="_blank">Threads</a>
+      <a href="https://www.facebook.com/share/16Xma6akUU/" target="_blank">Facebook</a>
+      <a href="https://www.reddit.com/u/kang_ai" target="_blank">Reddit</a>
+    </div>
   </div>
-</div>
+
   <!-- PARTNERS -->
   <div class="section">
     <h2 class="red-strong">CPP & CREATIVE PARTNERS</h2>
@@ -212,20 +207,22 @@ footer {
       <li>Pollo AI</li>
       <li>Tommovie AI</li>
     </ul>
-  </div
-<<!-- CONTENT CREATED -->
-<div class="section">
-  <h2 class="red-strong">CONTENT CREATED</h2>
-  <ul class="list">
-    <li>Music Video</li>
-    <li>Film Pendek Cinematic</li>
-    <li>Iklan Affiliate</li>
-    <li>Macro HD</li>
-  </ul>
-</div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="section">
+    <h2 class="red-strong">CONTENT CREATED</h2>
+    <ul class="list">
+      <li>Music Video</li>
+      <li>Film Pendek Cinematic</li>
+      <li>Affiliate Advertising</li>
+      <li>Macro HD Visual</li>
+    </ul>
+  </div>
+
   <!-- CONTACT -->
   <div class="section">
-    <h2 class="red-strong">CONTACT</h2>
+    <h2 class="red-strong">CONTACT ACCESS</h2>
     <div class="links">
       <a href="https://wa.me/message/5TRWHQZPS4GOC1" target="_blank">WhatsApp</a>
       <a href="https://t.me/Kangaitea" target="_blank">Telegram</a>
