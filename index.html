@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
 <title>KANG AI OFFICIAL</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="KANG AI OFFICIAL — AI-driven cinematic visual storytelling and digital experimentation." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KANG AI OFFICIAL — AI-driven cinematic visual storytelling and digital experimentation.">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
 
 <style>
 * {
@@ -17,98 +18,91 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: 
+  background:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.85)),
     url("background.png") no-repeat center center fixed;
   background-size: cover;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 /* CONTAINER */
 .container {
   max-width: 860px;
   margin: 0 auto;
-  padding: 80px 22px;
+  padding: 70px 22px;
   text-align: center;
 }
 
-/* TITLE */
+/* MAIN TITLE */
 h1 {
   font-family: 'Cinzel', serif;
-  font-size: 54px;
-  letter-spacing: 0.22em;
-  font-weight: 600;
-  margin-bottom: 12px;
-  color: #39ff14; /* HIJAU STABILO */
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 10px;
+  color: #39ff14;
   text-shadow:
-    0 0 8px rgba(57,255,20,0.35),
-    0 0 22px rgba(57,255,20,0.25);
+    0 0 10px rgba(57,255,20,0.35),
+    0 0 26px rgba(57,255,20,0.25);
 }
 
-/* SUBTITLE */
-.project{
-  font-size: 13px;
-  letter-spacing: 0.35em;
-  opacity: 0.75;
-  color: #ff2e2e;
+/* SUB TITLE */
+.project {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: #ff3b3b;
+  opacity: 0.9;
+  margin-bottom: 20px;
 }
 
 /* ROLE */
 .role {
-  font-size: 15px;
-  font-weight: 300;
-  letter-spacing: 0.04em;
-  opacity: 0.8;
-  margin-bottom: 70px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.55;
+  opacity: 0.9;
+  margin-bottom: 60px;
 }
 
 /* SECTION */
 .section {
-  margin-top: 48px;
-}
-
-.role {
-  font-size: 14px;
-  margin-bottom: 22px;
-  line-height: 1.4;
-  letter-spacing: 0.05em;
-}
-
-.section p {
-  font-size: 14.5px;
-  line-height: 1.55;
-  margin-bottom: 14px;
+  margin-top: 54px;
 }
 
 .section h2 {
-  font-size: 13px;
-  letter-spacing: 0.35em;
-  font-weight: 500;
-  opacity: 0.6;
-  margin-bottom: 26px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  opacity: 0.65;
+  margin-bottom: 22px;
 }
 
 .section p {
   max-width: 680px;
-  margin: 0 auto 22px auto;
+  margin: 0 auto 18px auto;
   font-size: 15px;
-  line-height: 1.9;
-  opacity: 0.82;
+  font-weight: 600;
+  line-height: 1.75;
+  opacity: 0.88;
 }
 
 /* LINKS */
 .links a {
   display: inline-block;
-  margin: 6px 14px;
+  margin: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   color: #ffffff;
   text-decoration: none;
-  font-size: 13px;
-  letter-spacing: 0.08em;
-  opacity: 0.7;
-  border-bottom: 1px solid rgba(255,255,255,0.25);
+  opacity: 0.8;
+  border-bottom: 1px solid rgba(255,255,255,0.35);
   padding-bottom: 4px;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
 }
 
 .links a:hover {
@@ -125,33 +119,35 @@ h1 {
 
 .list li {
   font-size: 14px;
-  letter-spacing: 0.05em;
-  opacity: 0.75;
-  margin: 8px 0;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  opacity: 0.82;
+  margin: 7px 0;
 }
 
 /* FOOTER */
 footer {
-  margin-top: 140px;
+  margin-top: 120px;
   font-size: 11px;
-  letter-spacing: 0.25em;
-  opacity: 0.35;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  opacity: 0.4;
 }
 
-/* MOBILE OPTIMIZATION */
+/* MOBILE */
 @media (max-width: 768px) {
   h1 {
-    font-size: 34px;
-    letter-spacing: 0.14em;
+    font-size: 32px;
+    letter-spacing: 0.1em;
   }
 
   .role {
-    font-size: 14px;
+    font-size: 13.5px;
   }
 
   .section p {
     font-size: 14px;
-    line-height: 1.9;
+    line-height: 1.75;
   }
 
   .links a {
@@ -178,22 +174,20 @@ footer {
       KANG AI OFFICIAL is an AI-driven visual art initiative focused on cinematic
       storytelling and the exploration of digital worlds.
     </p>
-
     <p>
       By merging advanced artificial intelligence with artistic precision and an
-      experimental mindset, each project is designed to evoke atmosphere, emotion,
+      experimental mindset, each project is crafted to evoke atmosphere, emotion,
       and narrative depth through visual form.
     </p>
-
     <p>
       Through continuous exploration and global collaboration, KANG AI OFFICIAL
       expands the boundaries of AI-powered creativity across platforms and mediums.
     </p>
   </div>
 
-  <!-- SOCIAL MEDIA ACCOUNTS -->
+  <!-- SOCIAL -->
   <div class="section">
-    <h2>SOCIAL MEDIA ACCOUNTS</h2>
+    <h2>SOCIAL SIGNALS</h2>
     <div class="links">
       <a href="#">Instagram</a>
       <a href="#">X</a>
@@ -209,7 +203,7 @@ footer {
 
   <!-- PARTNERS -->
   <div class="section">
-    <h2>CREATIVE & CPP PARTNERSHIPS</h2>
+    <h2>CPP & CREATIVE PARTNERS</h2>
     <ul class="list">
       <li>Higgsfield</li>
       <li>Wavespeed</li>
@@ -224,15 +218,16 @@ footer {
 
   <!-- CONTACT -->
   <div class="section">
-    <<h2>CONTACT</h2>
-<div class="links">
-  <a href="https://wa.me/message/5TRWHQZPS4GOC1" target="_blank">WhatsApp</a>
-  <a href="https://t.me/Kangaitea" target="_blank">Telegram</a>
-</div>
+    <h2>CONTACT ACCESS</h2>
+    <div class="links">
+      <a href="https://wa.me/message/5TRWHQZPS4GOC1" target="_blank">WhatsApp</a>
+      <a href="https://t.me/Kangaitea" target="_blank">Telegram</a>
+    </div>
+  </div>
 
   <!-- FOOTER -->
   <footer>
-    KANG AI OFFICIAL © 2025 — ALL VISUAL NARRATIVES RESERVED
+    © 2025 KANG AI OFFICIAL — ALL VISUAL NARRATIVES RESERVED
   </footer>
 
 </div>
